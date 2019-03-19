@@ -1,0 +1,44 @@
+#center{
+    text-align: center;
+
+}
+#left{
+    text-align: left;
+}
+#right{
+    text-align: right;
+}
+#justify{
+    text-align: justify;
+}
+#none{
+    text-decoration: none;
+}
+#underline{
+    text-decoration: underline;
+}
+#overline{
+    text-decoration: overline;
+}
+#line-through{
+    text-decoration: line-through;
+}
+
+#indent{
+    text-indent: 100px ;
+}
+#shadow{
+    text-shadow: red 2px 3px 4px;
+}
+#t_lowercase{
+    text-transform: lowercase;
+}
+#t_uppercase{
+    text-transform: uppercase;
+}
+#t_capitalize{
+    text-transform: capitalize;
+}
+#t_none{
+    text-transform:none ;
+}
