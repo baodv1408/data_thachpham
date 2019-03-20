@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Float</title>
+    <style>
+        .container{
+            width: 960px;
+
+            margin: 0 auto;
+            border: 2px solid black;
+            padding: 2em;
+        }
+        #post {
+            background-color: yellow;
+            width: 560px;
+            height: 300px;
+            float: left;
+        }
+        #sidebar{
+            background-color: red;
+            width: 400px;
+            height: 250px;
+            float: right;
+        }
+        .clear{
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+<div id="content" class="container">
+    <div id="post">
+        Nội dung Post
+    </div>
+    <div id="sidebar">
+        Nội dung sidebar
+    </div>
+    <div class="clear">
+
+    </div>
+</div>
+</body>
+</html>
